@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+    --rose: #DF8F9C;
+    --rose-soft: #F3D9DF;
+    --cream: #FAF4D4;
+    --cream-deep: #F0E6C2;
+    --ink: #2A0A0D;
+    --ink-soft: #6B4249;
+    --green-dot: #6E8F5C;
+
+    --font-display: 'Fraunces', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    
+
+    --max-w: 1180px;
+    --radius: 2px;
+    --border: 2px solid var (var(--ink));
+
+}
