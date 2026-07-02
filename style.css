@@ -19,3 +19,17 @@
     --border: 2px solid var (var(--ink));
 
 }
+
+* {margin: 0; padding: 0; box-sizing: border-box; }
+
+html {scroll-behavior: auto; }
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after {
+    animation-duration: 0.01ms ;
+    animation-iteration-count: 1;
+    transition-duration: 0.01;
+    scroll-behavior: auto;
+
+  }
+}
+
